@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAVIFITNESS</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&display=swap" rel="stylesheet">
+    <style>
+        body {
+            color: white;
+            margin: 0px;
+            padding: 0px;
+            background-image: url(gym.jpg);
+            font-family: 'Baloo Bhaijaan 2', cursive;
+        }
+
+        .right {
+            position: absolute;
+            right: 9px;
+            top: 20px;
+            display: inline-block;
+
+
+        }
+
+        .mid {
+
+            display: block;
+            margin: 20px auto;
+            width: 40%;
+
+
+
+        }
+
+        .left {
+            position: absolute;
+            left: 9px;
+            top: 20px;
+            display: inline-block;
+
+
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navabr ul {
+            overflow: auto;
+        }
+
+        .navbar li {
+            display: inline-block;
+
+            list-style: none;
+            text-decoration: none;
+
+        }
+
+        .left img {
+            width: 100px;
+        }
+
+        .left div {
+            text-align: center;
+        }
+
+        .navbar li a {
+            color: white;
+            padding: 25px 14px;
+            font-size: 18px;
+            font-weight: bolder;
+        }
+
+        .navbar li a:hover,
+        .navbar li a:active {
+            text-decoration: underline;
+            color: grey;
+        }
+
+        .btn {
+            margin: 8px;
+            padding: 4px, 12px;
+            background-color: aquamarine;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: gray;
+        }
+
+        .container {
+            display: block;
+            width: 30%;
+            margin: 151px 33px;
+            padding: 63px 275px;
+            border-radius: 16px;
+
+
+        }
+
+        .formgrp input {
+            text-align: center;
+            display: block;
+            width: 319px;
+            padding: 6px 49px;
+            margin: 17px 9px;
+            font-weight: bolder;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="logo.png">
+            <div>
+                Ravi Fitness
+            </div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li class="active"><a href="#">HOME</a></li>
+                <li class="active"><a href="#">ABOUT</a></li>
+                <li class="active"><a href="#">FITNESS CALCULATOR</a></li>
+                <li class="active"><a href="#">CONTACT US</a></li>
+
+            </ul>
+        </div>
+        <div class="right">
+            <Button class="btn">callus</Button><Button class="btn">Email</Button>
+        </div>
+    </header>
+    <container class="container">
+        <marquee behavior="alternate" direction="right">WELCOME TO CHANDIGARH GYM</marquee>
+        <marquee behavior="scroll" direction="left">ENROLL NOW FOR 30% INSTANT DISCCOUNT</marquee>
+
+        <form action="noaction.php">
+            <div class="formgrp">
+                <input type="text" placeholder="name">
+            </div>
+            <div class="formgrp">
+                <input type="text" placeholder="age">
+            </div>
+            <div class="formgrp">
+                <input type="text" placeholder="address">
+            </div>
+            <div class="formgrp">
+                <input type="text" placeholder="phonenumber">
+            </div>
+        </form>
+        <button class="btn">Submit</button>
+    </container>
+</body>
+
+</html>
